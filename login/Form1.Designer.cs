@@ -150,9 +150,10 @@
             // 
             // textBox1
             // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Location = new System.Drawing.Point(317, 326);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(477, 20);
+            this.textBox1.Size = new System.Drawing.Size(477, 13);
             this.textBox1.TabIndex = 3;
             // 
             // label2
@@ -166,6 +167,7 @@
             this.label2.Size = new System.Drawing.Size(145, 39);
             this.label2.TabIndex = 2;
             this.label2.Text = "USERNAME";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 

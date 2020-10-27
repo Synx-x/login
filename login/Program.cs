@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace login
+namespace Mordern_Signup_UI
 {
     static class Program
     {
